@@ -1,0 +1,125 @@
+.contact-block {
+    margin-top: 80px;
+}
+.contact-block h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: 'Play', sans-serif;
+    font-size: 3rem;
+    color: #f9f9f9;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    -webkit-animation: pulse 1.5s infinite;
+}
+.contact-block h2:after {
+    content: '📝';
+    padding-left: 5px;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+.error-block {
+    display: none;
+    margin: 10px 20px;
+}
+.show-error {
+    display: block;
+}
+.error-text {
+    font-family: 'Play', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px #000;
+    color: #f16528;
+}
+.success-block {
+    display: none;
+    margin: 10px 20px;
+}
+.show-success {
+    display: block;
+}
+.success-text {
+    font-family: 'Play', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px #000;
+    color: #80bd01;
+}
+.form-contact {
+    font-family: 'Play', sans-serif;
+    font-size: 1.4rem;
+}
+.form-group {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+}
+.form-group label {
+    color: #f9f9f9;
+    font-weight: bold;
+    display: flex;
+}
+.form-input,
+.form-textarea {
+    margin-left: 10px;
+    width: 300px;
+    padding: 5px;
+    font-family: 'Play', sans-serif;
+    border-radius: 4px;
+}
+.form-input:focus,
+.form-textarea:focus {
+    -webkit-box-shadow: 0px 0px 7px 1px #9000ff;
+    -moz-box-shadow: 0px 0px 7px 1px #9000ff;
+    box-shadow: 0px 0px 7px 1px #9000ff;
+}
+.form-btn {
+    width: 300px;
+    padding: 5px;
+    font-family: 'Play', sans-serif;
+    border-radius: 4px;
+    color: #f9f9f9;
+    font-weight: bold;
+    background-color: #9000ff;
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 7px 1px #9000ff;
+    -moz-box-shadow: 0px 0px 7px 1px #9000ff;
+    box-shadow: 0px 0px 7px 1px #9000ff;
+}
+.form-btn:hover {
+    color: #f9f9f9;
+    background-color:#b049ff;
+}
+.counter-container {
+    display: flex;
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 150px;
+    padding-right: 10px;
+    color: #9e00fc;
+}
+.map {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    margin-top: 40px;
+}
